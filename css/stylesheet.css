@@ -9,6 +9,10 @@ body {
   background-color: #fafafa;
   font-family: Helvetica, sans-serif;
 }
+a{
+  text-decoration: none;
+  color: #0c0c0c;
+}
 
 #page-1 {
   display: grid;
@@ -31,9 +35,11 @@ ul {
   justify-content: space-around;
   align-items: end;
 }
+
 li a {
   color: rgb(12, 12, 12);
   font-size: 18px;
+  border-bottom: solid 1px #0c0c0c;
 }
 li img {
   margin-top: 10px;
@@ -103,7 +109,7 @@ li img {
   height: auto;
 }
 
- .abt{
+.abt {
   color: #000;
   text-decoration: none;
   background-color: #fafafa;
@@ -111,9 +117,8 @@ li img {
   border-radius: 50px;
   margin-top: 100px;
   margin-left: 50px;
- 
-
 }
+
 .abt p{
   color: #000;
   font-size: 20px;
@@ -123,8 +128,79 @@ li img {
   margin-left: 25%;
   font-size: 50px;
   font-family: Helvetica, sans-serif;
-line-height: 1;
-letter-spacing: 1;
-font-weight: 700;
-
+  line-height: 1;
+  letter-spacing: 1;
+  font-weight: 700;
 }
+.con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:100px 50px ;
+  padding: 20px;
+}
+.ptext{
+  padding: 100px;
+}
+
+.ptext a{
+  color: #000;
+  text-decoration: none;
+ }
+ .ptext p{
+  font-size: 14px;
+ }
+ .tx {
+  width: 110px;
+  border-bottom: solid 1px #0c0c0c;
+ }
+ .ptext h1{
+  margin-top: 20px;
+ font-weight: 300;
+ }
+ .bg-img{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-size:100% auto ;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+  url(/images/bg-banner.webp);
+  background-attachment: scroll;
+ }
+ .our{
+  border: 2px solid #fafafa;
+  border-radius: 50px;
+  padding: 2px 10px;
+  
+ } .bg-cont{
+  text-align: center;
+ }
+ .bg-cont h1{
+  font-weight: 300;
+  text-transform:capitalize ;
+ }
+ .bg-cont p{
+  margin-top: 30px;
+  font-size: 50px;
+  color: #fafafa;
+  font-weight: 500;
+ }
+ .our1{
+  margin-top: 20px;
+  border: 2px solid #fafafa;
+  padding: 2px 10px;
+  border-radius: 50px;
+  background-color: transparent;
+ }
+ .our1 h1{
+  color: #fafafa;
+ }
+
+
+ 
+
+
