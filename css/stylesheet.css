@@ -151,7 +151,7 @@ li img {
   font-size: 16px;
 }
 .tx {
-  width: 110px;
+  width: 140px;
   border-bottom: solid 3px #0c0c0c;
 }
 .ptext h1 {
@@ -322,8 +322,12 @@ margin: 150px 150px 0 150px;
   gap: 30px;
 
 }
+
 .me1 svg{
 padding-top: 2px;
+}
+.me2{
+  border-bottom: 3px solid #0c0c0c;
 }
 .end ,.end1{
   display: flex;
