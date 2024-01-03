@@ -9,7 +9,7 @@ body {
   background-color: #fafafa;
   font-family: Helvetica, sans-serif;
 }
-a{
+a {
   text-decoration: none;
   color: #0c0c0c;
 }
@@ -119,12 +119,12 @@ li img {
   margin-left: 50px;
 }
 
-.abt p{
+.abt p {
   color: #000;
   font-size: 20px;
   padding: 5px 10px;
 }
-.cont-2 p{
+.cont-2 p {
   margin-left: 25%;
   font-size: 50px;
   font-family: Helvetica, sans-serif;
@@ -132,75 +132,208 @@ li img {
   letter-spacing: 1;
   font-weight: 700;
 }
-.con{
+.con {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:100px 50px ;
+  margin: 100px 50px;
   padding: 20px;
 }
-.ptext{
+.ptext {
   padding: 100px;
 }
 
-.ptext a{
+.ptext a {
   color: #000;
   text-decoration: none;
- }
- .ptext p{
-  font-size: 14px;
- }
- .tx {
+}
+.ptext p {
+  font-size: 16px;
+}
+.tx {
   width: 110px;
-  border-bottom: solid 1px #0c0c0c;
- }
- .ptext h1{
+  border-bottom: solid 3px #0c0c0c;
+}
+.ptext h1 {
   margin-top: 20px;
- font-weight: 300;
- }
- .bg-img{ 
+  font-weight: 300;
+}
+.bg-img {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-size:100% auto ;
+  background-size: 100% auto;
   object-fit: contain;
   background-repeat: no-repeat;
-  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-  url(/images/bg-banner.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/bg-banner.webp);
   background-attachment: scroll;
- }
- .our{
+}
+.our {
   border: 2px solid #fafafa;
   border-radius: 50px;
   padding: 2px 10px;
-  
- } .bg-cont{
+
+}
+.bg-cont {
   text-align: center;
- }
- .bg-cont h1{
+}
+.bg-cont h1 {
   font-weight: 300;
-  text-transform:capitalize ;
- }
- .bg-cont p{
+  text-transform: capitalize;
+}
+.bg-cont p {
   margin-top: 30px;
   font-size: 50px;
   color: #fafafa;
   font-weight: 500;
- }
- .our1{
+}
+.our1 {
   margin-top: 20px;
   border: 2px solid #fafafa;
   padding: 2px 10px;
   border-radius: 50px;
   background-color: transparent;
- }
- .our1 h1{
+}
+.our1 h1 {
   color: #fafafa;
- }
+}
+.page-4 {
+  width: 100%;
+  height: 100vh;
+}
+#all-img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 100px;
+  justify-content: space-between;
+}
+.i1 {
+  margin: 36px 0 0 0;
+}
+.p3 {
+  margin-top: 180px;
+}
 
-
+.i2 {
+  margin-left: 360px;
+}
+.img5 {
+  margin-top: 300px;
+  padding: 200px 0;
+  width: 100%;
+  height: 90vh;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-image: url(/images/img-parallax.webp);
+  background-attachment: scroll;
+}
+.txt6 {
+  text-align: center;
+  margin: 100px;
+}
+.txt7 {
+  padding: 5px 20px;
+  border: 1px solid #0c0c0c;
+  background-color: #fafafa;
+  border-radius: 50px;
+}
+.txt7 h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.txt6 p {
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.txt6-img{
+  display: flex;
+  gap: 20px;
+  margin:100px 50px ;
+} 
+.para {
+margin: 150px 150px 0 150px;
+}
+.p1{
+  margin-top: 20px;
+  border-bottom: 3px solid #0c0c0c;
+  width: 120px;
  
+}
+.p1 p{
+  font-size: medium;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background-color: #fff200;
+}
+.ctt{
+  border-bottom:5px solid #0c0c0c ;
+}
+.ctt h1{
+ font-size: 66px;
+ text-transform: uppercase;
+}
+.footer-img{
+  display: flex;
+  gap: 120px;
+  padding: 100px ;
+}
+.f2{
+  width: 100%;
+}
 
+.menu{
+  display: flex;
+ gap: 50px;
+ font-size: 30px;
+ font-weight: 200;
+  margin-bottom: 30px;
+  margin-top: 30px;
+ 
+}
+.fm p samp{
+  font-size: 20px;
+  color: lightgray;
+  margin-bottom: 30px;
+}
 
+.me{
+  margin-top: 150px;
+}
+.me1 p{
+  font-size: 15px;
+  color: #0c0c0c;
+}
+.me1{
+  display: flex;
+  margin-top: 13px;
+  gap: 30px;
+
+}
+.me1 svg{
+padding-top: 2px;
+}
+.end ,.end1{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.end{
+  margin-top: 120px;
+}
+.end p{
+  color:lightgrey;
+  font-size: 14px;
+}
