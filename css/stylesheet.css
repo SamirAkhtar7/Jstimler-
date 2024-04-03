@@ -22,7 +22,7 @@ a {
   background-repeat: no-repeat;
   object-fit: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../images/hero-home.webp);
+    url("../images/hero-home.webp");
   background-attachment: fixed;
 }
 .navber {
@@ -168,7 +168,7 @@ li img {
   object-fit: contain;
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/bg-banner.webp);
+    url("../images/bg-banner.webp");
   background-attachment: scroll;
 }
 .our {
@@ -229,7 +229,8 @@ li img {
   background-size: 100% auto;
   background-repeat: no-repeat;
   object-fit: contain;
-  background-image: url(../images/img-parallax.webp);
+  /* img-useing css  */
+  background-image: url("../images/img-parallax.webp");
   background-attachment: scroll;
 }
 .txt6 {
