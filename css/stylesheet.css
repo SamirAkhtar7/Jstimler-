@@ -21,7 +21,7 @@ a {
   background-size: 100% auto;
   background-repeat: no-repeat;
   object-fit: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)),
     url("../images/hero-home.webp");
   background-attachment: fixed;
 }
@@ -229,8 +229,9 @@ li img {
   background-size: 100% auto;
   background-repeat: no-repeat;
   object-fit: contain;
-  /* img-useing css  */
-  background-image: url("../images/img-parallax.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../images/img-parallax.webp");
+  
   background-attachment: scroll;
 }
 .txt6 {
